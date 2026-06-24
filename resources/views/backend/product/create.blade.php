@@ -43,11 +43,11 @@
                    <div class="card-body">
                      <div class="mb-4">
                         <h5 class="mb-3">Product Title</h5>
-                        <input type="text" class="form-control" placeholder="write title here....">
+                        <input type="text" name="name" class="form-control" placeholder="write title here....">
                      </div>
                      <div class="mb-4">
                        <h5 class="mb-3">Product Description</h5>
-                       <textarea class="form-control" cols="4" rows="6" placeholder="write a description here.."></textarea>
+                       <textarea class="form-control" name="description" cols="4" rows="6" placeholder="write a description here.."></textarea>
                      </div>
                      <div class="mb-4">
                       <h5 class="mb-3">Display images</h5>
@@ -79,11 +79,11 @@
                 </div>
                 <div class="card">
                   <div class="card-body">
-                     <h5 class="mb-3">Organize</h5>
+                     <h5 class="mb-3">Category</h5>
                         <div class="row g-3">
                             <div class="col-12">
                               <label for="AddCategory" class="form-label fw-bold">Category</label>
-                              <select class="form-select" id="AddCategory">
+                              <select class="form-select" name="category" id="AddCategory">
                                 <option value="0">Topwear</option>
                                 <option value="1">Bottomwear</option>
                                 <option value="2">Casual Tshirt</option>
