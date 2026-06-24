@@ -65,7 +65,7 @@
                     <div class="menu-title">eCommerce</div>
                   </a>
                   <ul>
-                    <li> <a href="ecommerce-add-product.html"><span class="material-symbols-outlined">arrow_right</span>Add Product</a>
+                    <li> <a href="{{route('product.create')}}"><span class="material-symbols-outlined">arrow_right</span>Add Product</a>
                     </li>
                     <li> <a href="{{route('product.index')}}"><span class="material-symbols-outlined">arrow_right</span>Products</a>
                     </li>
